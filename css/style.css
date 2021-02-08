@@ -1,0 +1,417 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    display: flex;
+}
+
+#logo{
+    margin-left: 100%;
+    margin-top: 27px;
+    justify-content: flex-start;
+}
+
+/* This is the line on the pg*/
+
+hr {
+    color: #000000 16%;
+}
+
+/* Navigation */
+nav { 
+    justify-content: flex-end;
+    width: 100% 
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.margin-contact {
+    margin-right: 5%;
+}
+
+
+h1 {
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 3%;
+    max-width: 750px;
+    padding-right: 20px;
+    margin-left: 10%;
+}
+
+h2 {
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10%;
+    padding-right: 20px;
+    margin-left: 10%;
+    max-width: 1000px;
+}
+.h3_left_padding {
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.h3_right_padding {
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-right: -50px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Bellota Text', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.h6_all_caps {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight:lighter;
+}
+
+.h6_header {
+    margin-left: 10%;
+    padding-top: 8%;
+    max-width: 1000px;
+}
+
+p {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.p_padding_left_top {
+    padding-top: 40px;
+    padding-left: 115px;
+}
+
+.p_padding_right_top {
+    padding-top: 40px;
+    padding-right: 60px;
+}
+
+.h6_padding_left_top {
+    padding-top: 20px;
+    padding-left: 115px;
+}
+
+.h6_padding_right_top {
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
+.p16 {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 16px;
+}
+
+.p18_bold {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #797979;
+    padding-bottom: 40px;
+}
+
+/* Project 1 Grid */
+.project1_grid {
+    display: grid;
+    max-width: 1100px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        " project1_img project1_info";
+}
+
+.project1_img {
+    grid-area: project1_img;
+}
+
+.project1_info {
+    grid-area: project1_info;
+    margin-left: 109px;
+}
+
+/* Project 2 Grid */
+.project2_grid {
+    display: grid;
+    max-width: 1100px;
+    margin-top: 65px;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: auto 64%;
+    grid-template-areas:
+        "project2_info project2_img";
+}
+
+.project2_img {
+    grid-area: project2_img;
+    margin-right: -50px;
+}
+
+.project2_info {
+    grid-area: project2_info;
+    text-align: right;
+}
+
+/* Project 3 Grid */
+.project3_grid {
+    display: grid;
+    max-width: 1100px;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        " project3_img project3_info";
+}
+
+.project3_img {
+    grid-area: project3_img;
+}
+
+.project3_info {
+    grid-area: project3_info;
+    margin-left: 109px;
+}
+
+/* Project 4 Grid */
+.project4_grid {
+    display: grid;
+    max-width: 1100px;
+    margin-top: 65px;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: auto 64%;
+    grid-template-areas:
+        "project4_info project4_img";
+}
+
+.project4_img {
+    grid-area: project4_img;
+   margin-right: -50px;
+}
+
+.project4_info {
+    grid-area: project4_info;
+    text-align: right;
+}
+
+.email_button {
+    background-color: #4BAA95;
+    border-style: none;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 18px;
+    padding: 19px 72px ;
+    border-radius: 10px;
+}
+
+.work_together_padding {
+    padding-top: 10%;
+    text-align: center;
+    max-width: 750px;
+    justify-content: center;
+    margin: 0px auto 0px auto;
+}
+
+.p_work_together {
+    padding-top: 20px;
+    padding-bottom: 55px;
+    line-height: 20px;
+}
+
+footer {
+    background-color: #F0F0F0;
+    margin-top: 108px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.footer_like_what_you_see {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.h6_footer {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 35px;
+    font-weight:lighter;
+    margin-left: 57px;
+    padding-top: 6px;
+}
+
+.footer_img {
+    margin-left: 57px;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+.copyright {
+    margin-left: 57px;
+    padding-top: 40px;
+    justify-content: flex-start;
+}
+
+.copyright_font {
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+    font-size: 12px;
+    font-weight:lighter;
+    display: inline-block;
+}
+
+.scroll_up_button {
+    border-style: none;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #4BAA95;
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.arrow {
+    border: solid black;
+    position: fixed;
+    bottom: 43px;
+    right: 45px;
+    z-index: 99;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.footer_flex {
+    display: flex;
+}
+
+@media all and (max-width: 600px) {
+    #logo {
+        margin-left: 50%;
+    }
+    .nav-item {
+        padding: 10px 10px 10px 10px;
+        font-size: 14px;
+        margin-top: 60px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+   .h3_right_padding, .h3_left_padding {
+        font-size: 35px;
+        margin-top: 30px; 
+    } 
+    
+    img {
+        width: 100%;
+    }
+    
+    .project1_grid, .project2_grid, 
+    .project3_grid, .project4_grid  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .project1_info, .project2_info, .project3_info,
+    .project4_info, .p16, .p_padding_left_top,
+    .h6_all_caps, .h6_padding_left_top, .h3_right_padding,
+    .p_padding_right_top, .h6_padding_right_top, .h3_left_padding
+     {
+        margin-left: 0%;
+        padding-left: 0%;
+        margin-right: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+
+    .p_padding_left_top, .p_padding_right_top {
+        padding-top: 25px;
+    }
+    
+    .h6_header {
+        text-align: left;
+        margin-left: 10%
+    }
+
+    .p_work_together {
+        font-size: 16px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .p18_bold {
+        font-size: 16px;
+        padding-bottom: 30px;
+    }
+
+    .email_button {
+        font-size: 16px;
+        padding: 16px 40px;
+    }
+
+    .image-rendering {
+        width: 30px;
+    }
+
+    .copyright_align {
+        width: 10px;
+        padding-right: 10px;
+    }
+
+    .copyright_font {
+        position: absolute;
+    }
+
+    .button_right {
+        padding-left: 73%;
+    }
+
+   
+
+}
